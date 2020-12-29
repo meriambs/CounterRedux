@@ -18,11 +18,11 @@ function App() {
 
   <div>
           <h2> counter : {counter}</h2>
-<button  onClick={()=>dispatch({type:'INCREMENT'})}>INCREMENT</button>
+<button className="increment-btn" onClick={()=>dispatch({type:'INCREMENT'})}>INCREMENT</button>
 
-<button onClick={()=>dispatch({type:'DECREMENT'})}>DECREMENT</button>
+<button className="decrement-btn" onClick={()=>dispatch({type:'DECREMENT'})}>DECREMENT</button>
 <br/>
-<button onClick={()=>dispatch({type:'RESET'})}>res</button>
+<button className="reset-btn " onClick={()=>dispatch({type:'RESET'})}>res</button>
          
  </div>
     </div>
